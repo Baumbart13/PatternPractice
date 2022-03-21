@@ -14,4 +14,8 @@ public class Sortierung {
     public void setSortierungstyp(Sortierungstyp sortierungstyp) {
         this.sortierungstyp = sortierungstyp;
     }
+    public int[] sortarr(int[] arr)
+    {
+        return sortierungstyp.sortierungsverfahren(arr);
+    }
 }
